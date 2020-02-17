@@ -16,7 +16,7 @@ function Navbar() {
                 <ul className="navbar-nav m-auto">
                     <li className="nav-item active">
                         <a className="nav-link text-white text-uppercase ml-5" href="#">
-                            Home &nbsp; <i class="fas fa-home"></i>
+                            Home &nbsp; <i className="fas fa-home"></i>
                             <span className="sr-only">(current)</span>
                         </a>
                     </li>
