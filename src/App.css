@@ -7,3 +7,11 @@
     --mainBlue: #007bff;
     --mainRed: #ff1100;
 }
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
