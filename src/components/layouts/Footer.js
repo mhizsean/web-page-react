@@ -49,7 +49,7 @@ import styled from 'styled-components';
                         {/* Footer bottom */}
                     <div className="footer-bottom">
                         <p className="text-xs-center">
-                            &copy; {new Date().getFullYear()} Lot To See. All Rights Reserved.
+                            &copy; {new Date().getFullYear()} Stylishly. All Rights Reserved.
                         </p>
                     </div>
                 </div>  

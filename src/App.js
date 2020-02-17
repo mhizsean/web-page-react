@@ -2,15 +2,34 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/layouts/Navbar';
+import Footer from './components/layouts/Footer';
+
+import { Switch, Route } from 'react-router-dom';
+
+import Home from './/components/pages/Home';
+import About from './components/pages/About';
+import Latest from './components/pages/Latest';
+import Events from './components/pages/Events';
+import Details from './components/pages/Details';
+import Contact from './components/pages/Contact';
+import NotFound from './components/pages/NotFound';
+
 
 function App() {
   return (
     <div>
       <Navbar />
       <br/>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores eius, iusto aliquid corporis et accusantium quia reprehenderit possimus. A quis et dolores, dolorum quam officia soluta nulla! Soluta iste dolorum eaque nemo voluptatibus unde repellendus pariatur, iusto vitae nulla vel provident ea corporis saepe.
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/latest" component={Latest}/>
+        <Route path="/events" component={Events}/>
+        <Route path="/details" component={Details}/>
+        <Route path="/contact" component={Contact}/>
+        <Route component={NotFound}/>
+      </Switch>
       <Footer/>
     </div>
     
