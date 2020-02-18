@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import logo from '../../logo2.png';
+import logo from '../../logo3.png';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg ">
             <Link className="navbar-brand ml-5" to="/">
                 <img src={logo} alt="" style={{width: '50px'}}/>    
             </Link>
@@ -18,7 +19,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav m-auto">
                     <li className="nav-item active">
-                        <Link className="nav-link text-white text-uppercase ml-5" to="/">
+                        <Link className="nav-link text-uppercase ml-5" to="/">
                             Home &nbsp; <i className="fas fa-home"></i>
                             <span className="sr-only">(current)</span>
                         </Link>
@@ -37,10 +38,7 @@ function Navbar() {
                     </li>
                     
                 </ul>
-                <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-                </form>
+               
             </div>
         </nav>
     )

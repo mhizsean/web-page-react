@@ -1,0 +1,12 @@
+.btn {
+    background-color: aquamarine;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: turquoise;
+}

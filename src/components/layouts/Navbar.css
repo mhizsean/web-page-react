@@ -1,0 +1,14 @@
+nav {
+    background: black;
+}
+
+.nav-link {
+    color: white;
+    transition: all 0.4s;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.nav-link:hover {
+    color: palevioletred;
+}
