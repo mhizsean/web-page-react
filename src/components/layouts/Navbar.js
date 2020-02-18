@@ -6,7 +6,7 @@ import './Navbar.css';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg " >
             <Link className="navbar-brand ml-5" to="/">
                 <img src={logo} alt="" style={{width: '50px'}}/>    
             </Link>

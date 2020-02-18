@@ -7,15 +7,13 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <div className="jumbotron jumbotron-fluid">
-                    <div className="container">
-                        <h1 className="display-4">Stylishly</h1>
-                        <p className="lead">The Place Your Inner Styling Comes Alive</p>
-                    </div>
+                <div className="home">
+                    {/* <h2>A stylish Experience You never knew</h2> */}
                 </div>
-            
-                <div className="container">
-                    <div className="row mt-5">
+                <img src="../images/big3.jpg" alt="" className="home-img" placeholder="An Adventure of styles"/>
+                <div className="container justify-content-center">
+                <h2 className="sneak-peak">Sneak Peak</h2>
+                    <div className="row mt-5 ">
                         <InfoConsumer>
                             {value => {
                                 return value.info.map(item => {

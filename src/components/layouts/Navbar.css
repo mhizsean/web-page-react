@@ -1,5 +1,6 @@
 nav {
     background: black;
+    width: 100%;
 }
 
 .nav-link {
@@ -12,3 +13,12 @@ nav {
 .nav-link:hover {
     color: palevioletred;
 }
+ 
+/* .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent; 
+     border: 1px solid transparent;
+    border-radius: .25rem;
+} */

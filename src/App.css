@@ -15,3 +15,25 @@
 .navbar-toggler {
     border: none;
 }
+
+
+.home-img {
+    width: 100%;
+    background-color: #343a40;
+    margin-top: -100px;
+}
+
+.sneak-peak {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+@media(max-width: 760px) {
+   .home-img {
+       height: 300px;
+   }
+   .row {
+       width: 300px;
+   }
+}
