@@ -4,9 +4,11 @@
     font-weight: 500;
     text-transform: uppercase;
     transition: all 0.3s;
+    outline: none;
 }
 
 .btn:hover {
     background-color: black;
     color: turquoise;
+    outline: none;
 }

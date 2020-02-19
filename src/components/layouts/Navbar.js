@@ -24,21 +24,19 @@ function Navbar() {
                             <span className="sr-only">(current)</span>
                         </Link>
                     </li>
+                    {/* <li className="nav-item">
+                        <Link className="nav-link  text-uppercase ml-5" to="/latest">Latest</Link>
+                    </li> */}
                     <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-5" to="/latest">Latest</Link>
+                        <Link className="nav-link text-uppercase ml-5" to="/about">About Us</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-5" to="/about">About Us</Link>
+                        <Link className="nav-link text-uppercase ml-5" to="/events">Events</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-5" to="/events">Events</Link>
+                        <Link className="nav-link text-uppercase ml-5" to="/contact">Contact Us</Link>
                     </li>
-                    <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-5" to="/contact">Contact Us</Link>
-                    </li>
-                    
-                </ul>
-               
+                </ul>               
             </div>
         </nav>
     )

@@ -115,7 +115,7 @@ const HeaderDetails = styled.header`
     }
      @media(max-width: 760px) {
          h1 {
-             font-size: 20px;
+             font-size: 40px;
          }
          .row {
             margin-left: 30;

@@ -11,17 +11,18 @@ import styled from 'styled-components';
                         <div className="col-md-3 col-sm-6">
                             <h4>Stylishly You</h4>
                             <ul className="list-unstyled">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam alias eius eum odio ipsam!</p>
+                                <p>A place for styles beyond imaginations. Stay on here for upadates on events and top designers</p>
+                                <p className="isocial"><i className="fab fa-facebook"></i><i className="fab fa-twitter"></i><i className="fab fa-pinterest"></i><i className="fab fa-instagram"></i></p>
                             </ul>
                         </div>
                         {/* /Col 2 */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Lorem, ipsum.</h4>
+                            <h4>Quick Links</h4>
                             <ul className="list-unstyled">
-                                <li><a href="/">lorem ipsum</a></li>
-                                <li><a href="/">lorem ipsum</a></li>
-                                <li><a href="/">lorem ipsum</a></li>
-                                <li><a href="/">lorem ipsum</a></li>
+                                <li><a href="/">Teams</a></li>
+                                <li><a href="/">Support</a></li>
+                                <li><a href="/">Showcase</a></li>
+                                <li><a href="/">Follow up</a></li>
                                 
                             </ul>
                         </div>
@@ -29,17 +30,17 @@ import styled from 'styled-components';
                         <div className="col-md-3 col-sm-6">
                             <h4>Lorem, ipsum.</h4>
                             <ul className="list-unstyled">
-                                <li><a href="/">lorem ipsum</a></li>
-                                <li><a href="/">lorem ipsum</a></li>
-                                <li><a href="/">lorem ipsum</a></li>
-                                <li><a href="/">lorem ipsum</a></li>
+                                <li><a href="/">Suggetions</a></li>
+                                <li><a href="/">Feedback</a></li>
+                                <li><a href="/">Privacy</a></li>
+                                <li><a href="/">Terms & Conditions</a></li>
                             </ul>
                         </div>
                         {/* /Col 4*/}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Lorem, ipsum.</h4>
+                            <h4>Newsletter</h4>
                             <ul className="list-unstyled">
-                                <li>Subscribe to recieve our newsletter</li>
+                                <li>Subscribe</li>
                                 <input type="email" placeholder="Subscribe..."/> <br/>
                                 <button className="btn">Subscribe</button>
                             </ul>
@@ -81,11 +82,11 @@ const FooterContainer = styled.footer`
     }
 
     ul li a {
-        color: var(--mainGrey);
+        color: var(--mainDark);
         text-decoration: none;
     }
     ul li a:hover {
-        color: var(--mainDark);
+        color: var(--mainGrey);
         width: 2rem;
     }
 
@@ -102,6 +103,14 @@ const FooterContainer = styled.footer`
         margin: 5px;
         border-radius: 10px;
         width: 180px;
+    }
+
+    .list-unstyled .isocial .fab{
+        margin: 10px;
+    }
+
+    .list-unstyled .isocial .fab:hover {
+        color: var(--mainGrey);
     }
 
 `;
